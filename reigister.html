@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Use GET, not POST  -->
+    <form method="GET">   	
+    	<a href="index.html">Back to website</a><br>
+    	<h1 style="
+        backgroung-color: blanchedalmond;">Register below to reserve a spot</h1>
+        First Name: <input type="text" name="firstname"><br>
+    	Last Name: <input type="text" nmae="lastname"><br>
+    	Email: <input type="Email" name="email" required><br>
+    	Phone No.: <input type="text" name="phone no."><br>
+    	Birthday: <input type="date" name=""><br>
+    	Spot Reservation : <br>
+    	<input type="radio"name="select" value="Under 2 months">Under 2 months<br>
+        <input type="radio"name="select" value="Over 2 months">Over 2 months<br>
+        <select name="spot">
+    		<option value="1 Spot">1 Spot</option>
+    		<option value="2 Spots">2 Spots</option>
+    		<option value="3 or more">3 or more</option>
+    	</select><br>
+        <input type="submit" name="Register">
+    	<input type="reset"><br>
+    </form>
+</body> 
+</html>
+
